@@ -1,0 +1,6 @@
+{
+  "name": "Whisker Maze: Cat & Mouse Arcade",
+  "description": "Two-player same-screen retro arcade maze game with customizable cats, giant 10-second squash power-ups, destructible walls, speed boosts, and chase multipliers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#090B14" />
+  <rect x="36" y="36" width="440" height="440" rx="76" fill="#12172A" stroke="#F59E0B" stroke-width="14" />
+  <!-- Cat Ears -->
+  <polygon points="130,225 148,112 222,175" fill="#F59E0B" />
+  <polygon points="382,225 364,112 290,175" fill="#F59E0B" />
+  <polygon points="150,206 160,136 204,178" fill="#FDA4AF" />
+  <polygon points="362,206 352,136 308,178" fill="#FDA4AF" />
+  <!-- Cat Head -->
+  <circle cx="256" cy="272" r="122" fill="#F59E0B" />
+  <!-- VR Visor -->
+  <rect x="148" y="216" width="216" height="72" rx="28" fill="#090B14" stroke="#38BDF8" stroke-width="10" />
+  <circle cx="206" cy="252" r="18" fill="#38BDF8" />
+  <circle cx="306" cy="252" r="18" fill="#38BDF8" />
+  <!-- Nose & Whiskers -->
+  <polygon points="256,312 242,296 270,296" fill="#FB7185" />
+  <line x1="112" y1="304" x2="188" y2="312" stroke="#FEF3C7" stroke-width="8" stroke-linecap="round" />
+  <line x1="112" y1="334" x2="188" y2="330" stroke="#FEF3C7" stroke-width="8" stroke-linecap="round" />
+  <line x1="400" y1="304" x2="324" y2="312" stroke="#FEF3C7" stroke-width="8" stroke-linecap="round" />
+  <line x1="400" y1="334" x2="324" y2="330" stroke="#FEF3C7" stroke-width="8" stroke-linecap="round" />
+</svg>

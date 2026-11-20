@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-arcade: "Silkscreen", monospace;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: #090b14;
+    color: #f1f5f9;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+.font-arcade {
+  font-family: var(--font-arcade);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle CRT scanline overlay purely for retro cabinet bezel framing (pointer-events-none) */
+.arcade-scanlines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.025) 0px,
+    rgba(255, 255, 255, 0.025) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
